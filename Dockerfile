@@ -1,6 +1,6 @@
 FROM frolvlad/alpine-oraclejre8:latest
 
-ENV GITBUCKET_VERSION=4.23.1 \
+ENV GITBUCKET_VERSION=4.24.0 \
     JAVA_ARGS="-server -Xms256M -Xmx1024M -XX:ParallelGCThreads=2" \
     GITBUCKET_ARGS="--port=80 --gitbucket.home=/var/lib/gitbucket"
 
